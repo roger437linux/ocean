@@ -1,0 +1,67 @@
+# Apresentação aula-1
+https://docs.google.com/presentation/d/1m6ge7FPWfMegtHOxj0Xsmse4kmNAUsxXsNHqEBwNLe8/edit#slide=id.p5
+
+# Github professor
+https://github.com/feulo-ocean/python-html-css
+
+
+==> Roteiro
+
+http://turing.com.br/material/flask/tutorial/folders.html
+
+
+*****************************************
+# Instalar os módulos
+$ pip install flask python-dotenv pyngrok
+
+# Verificar módulos e dependências instaladas
+$ pip freeze
+
+# Salvar em arquivo os módulos instalados
+$ pip freeze > requeriments.txt
+
+# Para preparar outros ambientes com os mesmos módulos do projeto
+$ pip install -r requeriments.txt
+
+
+==> Arquivo app.py
+
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/hello')
+def pagina_inicial():
+    return "Hello world"
+
+
+
+==> Arquivo .flaskenv
+
+FLASK_APP=app.py
+FLASK_ENV=development
+
+
+*************************************
+
+==> Para executar
+
+ $ flask run
+ * Serving Flask app 'app.py' (lazy loading)
+ * Environment: development
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 133-055-400
+
+OBS.: No VSCode tornar a porta 5000 pública [Menu Remote Explorer (Computador)]
+
+
+==> No terminal
+
+sqlite3 blog.db < esquema.sql
+
+
+
+
