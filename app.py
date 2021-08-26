@@ -22,7 +22,9 @@ def depois_request(exc):
 @app.route('/')
 @app.route('/entradas')
 def exibir_entradas():
-    return render_template('exibir_entradas.html')
+    return render_template('exibir_entradas.html', \
+    mensagem = "Olá Pessoas!", img="https://tecnoblog.net/meiobit/wp-content/uploads_legacy/openbsd.jpg")
+  
 
 @app.route('/hello')
 def pagina_inicial():

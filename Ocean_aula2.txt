@@ -1,4 +1,4 @@
-# Apresenta玢o aula-1
+# Apresenta莽茫oo aula-1
 https://docs.google.com/presentation/d/1m6ge7FPWfMegtHOxj0Xsmse4kmNAUsxXsNHqEBwNLe8/edit#slide=id.p5
 
 # Github professor
@@ -11,16 +11,16 @@ http://turing.com.br/material/flask/tutorial/folders.html
 
 
 *****************************************
-# Instalar os m骴ulos
+# Instalar os m贸dulos
 $ pip install flask python-dotenv pyngrok
 
-# Verificar m骴ulos e depend阯cias instaladas
+# Verificar m贸dulos e depend锚ncias instaladas
 $ pip freeze
 
-# Salvar em arquivo os m骴ulos instalados
+# Salvar em arquivo os m贸dulos instalados
 $ pip freeze > requeriments.txt
 
-# Para preparar outros ambientes com os mesmos m骴ulos do projeto
+# Para preparar outros ambientes com os mesmos m贸dulos do projeto
 $ pip install -r requeriments.txt
 
 
@@ -55,7 +55,7 @@ FLASK_ENV=development
  * Debugger is active!
  * Debugger PIN: 133-055-400
 
-OBS.: No VSCode tornar a porta 5000 p鷅lica [Menu Remote Explorer (Computador)]
+OBS.: No VSCode tornar a porta 5000 p煤blica [Menu Remote Explorer (Computador)]
 
 
 ==> No terminal
@@ -63,5 +63,19 @@ OBS.: No VSCode tornar a porta 5000 p鷅lica [Menu Remote Explorer (Computador)]
 sqlite3 blog.db < esquema.sql
 
 
+馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂馃槂
+
+Aula 3 [Final]
+
+# Github professor
+
+https://github.com/feulo-ocean/python-html-css
+
+
+# No primeiro terminal
+$ flask run
+ 
+# No segundo terminal
+$ ngrok http 5000
 
 
